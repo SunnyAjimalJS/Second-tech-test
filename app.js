@@ -9,9 +9,10 @@ const chessboard = [];
 
 class ChessboardSquare {
     constructor(squareNumber, numberOfGrains){
-    this.squareNumber = squareNumber;
-    this.numberOfGrains = numberOfGrains;
-}}
+        this.squareNumber = squareNumber;
+        this.numberOfGrains = numberOfGrains;
+    }
+}
 
 for (let i = 1; i <= 64; i++){ 
     const Square = new ChessboardSquare(i, 2 ** (i-1));
