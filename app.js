@@ -5,7 +5,7 @@
 // how many grains were on each square, and
 // the total number of grains
 
-const chessboard = [];
+let chessboard = [];
 
 class ChessboardSquare {
     constructor(squareNumber, numberOfGrains){
@@ -32,9 +32,9 @@ console.log(totalNumber(64));
 
     /* STEPS */
     //build a class of chessboardSquare which has constructors of a squarenumber and numberofgrains - DONE
-    //let the return be an object with the square number and amount of grains - build a function which multiplys the number of grains per square *EXAMPLE BELOW* - DONE
+    //create a for loop to make an object/square with the square number and amount of grains and multiplys the number of grains per square to the power of 2*EXAMPLE BELOW* - DONE
     // {square: 1, numberofgrains: 1}
     // {square: 2, numberofgrains: 2}
     // {square: 3, numberofgrains: 4}
-    // Also return how many grains there are in total for all of the squares (64) in a Method which takes the amount of grains and returns totalNumber- DONE 
+    // Also return how many grains there are in total for all of the squares (64) in a Method which takes the numberofgrains and returns totalNumber- DONE 
 
