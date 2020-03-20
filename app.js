@@ -35,5 +35,5 @@ console.log(totalNumber(64));
     // {square: 1, numberofgrains: 1}
     // {square: 2, numberofgrains: 2}
     // {square: 3, numberofgrains: 4}
-    // Also return how many grains there are in TOTAL in a Method which takes the amount of grains and maps through to return totalNumberOfGrains - DONE 
+    // Also return how many grains there are in total for all of the squares (64) in a Method which takes the amount of grains and returns totalNumber- DONE 
 
